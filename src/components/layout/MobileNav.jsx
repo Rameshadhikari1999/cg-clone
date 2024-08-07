@@ -20,7 +20,6 @@ const MobileNav = ({ onClick }) => {
       </div>
       <div className="w-full pt-10">
         <div className=" flex flex-col w-3/4 mx-auto gap-3">
-
          {menu.map((item, index) =>( 
           <ul key={index} className="w-full py-2 px-4  bg-primary rounded transition-all ease-in-out duration-1000">
            

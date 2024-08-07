@@ -1,7 +1,11 @@
-
-
-
-
+import {
+  IoIosCall,
+  MdEmail,
+  FaLocationDot,
+  FaFacebookSquare,
+  FaYoutube,
+  FaTwitterSquare,
+} from "./icons.jsx";
 
 const menu = [
   {
@@ -117,4 +121,41 @@ const menu = [
   },
 ];
 
-export { menu };
+const topMenuLeftItem = [
+  {
+    title: "+977–1–5522330",
+    icon: IoIosCall ,
+  },
+  {
+    title: "info@chaudharygroup.com",
+    icon: MdEmail ,
+  },
+  {
+    title: "Sanepa,Lalitpur, Nepal",
+    icon: FaLocationDot ,
+  },
+]
+
+const topMenuRightItem = [
+  {
+    title: "Company Profile",
+  },
+  {
+    title: "Careers ",
+  },
+  {
+    icon: FaFacebookSquare ,
+  },
+  {
+    icon: FaYoutube ,
+  },
+  {
+    icon: FaTwitterSquare ,
+  },
+]
+
+export { 
+  menu,
+  topMenuLeftItem,
+  topMenuRightItem
+};
