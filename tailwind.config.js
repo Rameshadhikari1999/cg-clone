@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#173B45',
-        'secondary': '#03346E',
-        'tertiary': '#F5EDED',
-        'quaternary': '#ffff00',
+        'primary': "#162326",
+        'secondary': '#162529',
+        'tertiary': '#c9c5c3',
+        'quaternary': '#182b30',
     },
     fontFamily: {
       'oswald': ['Oswald', 'sans-serif']
